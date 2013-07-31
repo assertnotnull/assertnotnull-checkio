@@ -1,4 +1,4 @@
 assertnotnull-checkio
 =====================
 
-My checkIO repo
+This repo contains my source of CheckIO solutions.
