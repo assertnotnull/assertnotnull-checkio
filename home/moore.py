@@ -5,7 +5,7 @@ def count_neighbours(grid, row, col):
             if x == 0 and y == 0:
                 continue
             try:
-                if row + x >= 0 or col + y >= 0:
+                if row + x >= 0 and col + y >= 0:
                     count += grid[row + x][col + y]
             except IndexError:
                 pass
